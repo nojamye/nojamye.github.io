@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d65a6a0844.js" crossorigin="anonymous"></script>
+
+    <title>나의 서시</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="containerWrap">
+            <form id="login-form" class="hidden">
+                <p>그리고 한 사나이가 있습니다.</p>
+                <input type="text" placeholder="당신은 누구신가요?" required maxlength="15">
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="leftWrap">
+                <div class="clock-day">
+                    <h2 id="clock">00:00:00</h2>
+                    <h2 id="day">yyyy.dd.mm day</h2>
+                </div>
+                <h1 id="greeting" class="hidden"></h1>
+                <div id="quote">
+                    <span class="author"></span>
+                    <span class="quote"></span>
+                </div>
+                <div id="weather">
+                    <span class="weatherIcon">NONE</span>
+                    <span class="weatherName">NONE / 0 ℃</span>
+                    <span class="city">NONE</span>
+                </div>
+            </div>
+            <div class="rightWrap">
+                <form id="todo-form">
+                    <input type="text" placeholder="오늘은 무엇을 하실건가요?" required>
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+
+        <canvas id="nightSky"></canvas>
+    </div>
+</body>
+<script src="script/greetings.js"></script>
+<script src="script/clock.js"></script>
+<script src="script/quotes.js"></script>
+<script src="script/background_sky.js"></script>
+<script src="script/background.js"></script>
+<script src="script/todo.js"></script>
+<script src="script/weather.js"></script>
+
+</html>
