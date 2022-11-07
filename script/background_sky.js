@@ -24,6 +24,7 @@ function randomNum(min, max) {
 }
 
 function sizingCanvas() {
+  debugger;
   canvas.width = canvasLength();
   canvas.height = canvasLength();
 }
@@ -60,6 +61,7 @@ function getOpacity(factor) {
 }
 
 function render() {
+  debugger;
   context.fillStyle = backgroundColor;
   context.fillRect(0, 0, canvasLength(), canvasLength());
   stars.forEach(function (star, i) {
