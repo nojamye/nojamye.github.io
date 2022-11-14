@@ -135,10 +135,10 @@ table {
 }
 
 /*----- font -----*/
-/* @font-face {
+@font-face {
 	font-family: "Yundongju";
 	src: url("../font/독립서체_윤동주_서시_GS.woff") format("woff");
-} */
+}
 
 @font-face {
 	font-family: 'KyoboHandwriting2020A';
