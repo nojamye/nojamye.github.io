@@ -24,7 +24,7 @@ function randomNum(min, max) {
 }
 
 function sizingCanvas() {
-  debugger;
+  // debugger;
   canvas.width = canvasLength();
   canvas.height = canvasLength();
 }

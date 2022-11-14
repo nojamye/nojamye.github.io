@@ -135,17 +135,17 @@ table {
 }
 
 /*----- font -----*/
-@font-face {
+/* @font-face {
 	font-family: "Yundongju";
 	src: url("../font/독립서체_윤동주_서시_GS.woff") format("woff");
-}
+} */
 
-@font-face {
+/* @font-face {
 	font-family: 'KyoboHandwriting2020A';
 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 
 @font-face {
 	font-family: 'KOTRA_SONGEULSSI';
