@@ -1,9 +1,9 @@
 // app.js
-import HomeComponent from "./src/views/Home.js";
-import AboutComponent from "./src/views/About.js";
-import PostComponent from "./src/views/Post.js";
-import renderHeader from "./src/layouts/_Header.js";
-import renderFooter from "./src/layouts/_Footer.js";
+import HomeComponent from "/src/views/Home.js";
+import AboutComponent from "/src/views/About.js";
+import PostComponent from "/src/views/Post.js";
+import renderHeader from "/src/layouts/_Header.js";
+import renderFooter from "/src/layouts/_Footer.js";
 
 function renderNotFound() {
   return "<h1>404 - Not found</h1>";
