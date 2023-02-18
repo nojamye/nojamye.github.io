@@ -144,8 +144,8 @@ export default function AboutComponent() {
         </a>
       </li>
     </ul>
-    <a href="../resources/etc/leim_발표용_최종.zip" download>leim.pdf</a>
-    <a href="../resources/etc/포트폴리오_이혜주_220913.pdf" download>portfolio.pdf</a>
+    <a href="./src/resources/etc/leim_발표용_최종.zip" download>leim.pdf</a>
+    <a href="./src/resources/etc/포트폴리오_이혜주_220913.pdf" download>portfolio.pdf</a>
   </div>
   `;
 }
